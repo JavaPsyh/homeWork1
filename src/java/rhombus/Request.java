@@ -1,4 +1,4 @@
-package psyh.rhombus;
+package java.rhombus;
 
 import java.io.BufferedReader;
 import java.io.IOException;

@@ -1,12 +1,12 @@
-package psyh;
+package java; //It is hard feeling, but may be changes is well.
 
-import psyh.powerOfNumber.PowerOfNumber;
-import psyh.powerOfNumber.Request;
-import psyh.rhombus.Rhombus;
+import java.powerofnumber.PowerOfNumber;
+import java.powerofnumber.Request;
+import java.rhombus.Rhombus;
 
 import java.io.IOException;
 
-import static psyh.rhombus.Request.*;
+import static java.rhombus.Request.*;
 
 public class HomeWork1App {
     public static void main(String[] args) throws IOException, NumberFormatException {
@@ -17,6 +17,6 @@ public class HomeWork1App {
         Rhombus.rhombusDrawer(request());
 
 //      1.3
-        Request.answer(PowerOfNumber.powerOfNumber(Request.request()));
+        Request.answer(new PowerOfNumber(new Request()).powerOfNumber());
     }
 }

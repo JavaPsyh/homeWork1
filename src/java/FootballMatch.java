@@ -1,4 +1,4 @@
-package psyh;
+package java;
 
 public class FootballMatch {
 

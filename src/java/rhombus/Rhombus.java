@@ -1,4 +1,4 @@
-package psyh.rhombus;
+package java.rhombus;
 
 public class Rhombus { //I like "Rhombus"
 
