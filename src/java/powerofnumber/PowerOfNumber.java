@@ -1,4 +1,4 @@
-package psyh.powerofnumber;
+package java.powerofnumber;
 
 public class PowerOfNumber {
 
