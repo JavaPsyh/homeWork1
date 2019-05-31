@@ -15,7 +15,6 @@ public class HomeWork1App {
                 FootballMatch.resultOfFootballMatch(3, 4, 3, 4));
 //      1.2
         Rhombus.rhombusDrawer(request());
-
 //      1.3
         Request.answer(new PowerOfNumber(new Request()).powerOfNumber());
     }
