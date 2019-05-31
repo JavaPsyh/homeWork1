@@ -1,7 +1,7 @@
 package psyh;
 
-import psyh.powerOfNumber.PowerOfNumber;
-import psyh.powerOfNumber.Request;
+import psyh.powerofnumber.PowerOfNumber;
+import psyh.powerofnumber.Request;
 import psyh.rhombus.Rhombus;
 
 import java.io.IOException;
@@ -17,6 +17,6 @@ public class HomeWork1App {
         Rhombus.rhombusDrawer(request());
 
 //      1.3
-        Request.answer(PowerOfNumber.powerOfNumber(Request.request()));
+        Request.answer(new PowerOfNumber(new Request()).powerOfNumber());
     }
 }
