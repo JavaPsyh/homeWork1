@@ -1,13 +1,13 @@
-package java.powerofnumber;
+package tasks.power.of.number;
 
 public class PowerOfNumber {
 
     private int number;
     private int power;
 
-    public PowerOfNumber(Request request) {
-        this.number = request.getNumber();
-        this.power = request.getPower();
+    public PowerOfNumber(int number, int power) {
+        this.number = number;
+        this.power = power;
     }
 
     public int powerOfNumber() {

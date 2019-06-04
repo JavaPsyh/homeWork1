@@ -1,4 +1,4 @@
-package java.rhombus;
+package tasks.rhombus;
 
 public class Rhombus { //I like "Rhombus"
 

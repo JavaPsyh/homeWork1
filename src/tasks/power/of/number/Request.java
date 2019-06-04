@@ -1,4 +1,4 @@
-package java.powerofnumber;
+package tasks.power.of.number;
 
 import java.io.BufferedReader;
 import java.io.IOException;
